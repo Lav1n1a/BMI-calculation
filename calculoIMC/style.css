@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body {
+    background-color: rgba(119, 18, 18, 0.685);
+    font-family: 'Gloock', serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 19px;
+    line-height: 1.5;
+}
+.principal {
+    background-color: rgba(223, 175, 175, 0.815);
+    max-width: 570px;
+    padding: 20px;
+    margin: 8px auto;
+    border-radius: 10px;
+}
+.principal-titulo {
+    text-align: center;
+}
+h2 {
+    margin-top: 6px;
+}
+.principal-tabela {
+    margin-left: 45px;
+    display: flex;
+    gap: 120px;
+}
+.principal-calcular {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+input {
+    height: 30px;
+}
+button {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: rgba(119, 18, 18, 0.685);
+    color: white;
+    border: white;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 50px;
+    cursor: pointer;
+}
